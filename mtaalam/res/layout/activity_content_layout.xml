@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContentLayoutActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What do you want to view?..."
+        android:textSize="20sp" />
+
+   <!--  <Button
+        android:id="@+id/Quizzes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/Notes"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="34dp"
+        android:text="@string/quizzes" />
+
+    <Button
+        android:id="@+id/Videos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="85dp"
+        android:text="@string/videos" />
+        -->
+
+    <!-- <Button
+        android:id="@+id/Notes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:layout_below="@+id/Quizzes"
+        android:layout_marginTop="76dp"
+        android:text="@string/notes"  -->
+            
+        />
+ 
+ <Button
+     android:id="@+id/Quizzes"
+     android:layout_marginTop="35dp"
+     android:layout_width="150dp"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/textView1"
+     android:layout_centerHorizontal="true"
+     android:padding="15sp"
+     android:text="Quizzes"
+     android:clickable="true"
+     android:onClick="onQuizClicked"
+     android:textSize="30sp" />
+
+ <Button
+     android:id="@+id/Notes"
+     android:layout_width="150dp"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/Quizzes"
+     android:layout_centerHorizontal="true"
+     android:padding="15sp"
+     android:text="Notes"
+     android:clickable="true"
+     android:onClick="onNotesClicked"
+     android:textSize="30sp" />
+ 
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+      xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+  android:layout_height="match_parent">
+<LinearLayout
+
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <!-- Name Label -->
+  <TextView android:id="@+id/name_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dip"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:textColor="#dc6800"/>
+  <!-- Description Label -->
+  <TextView android:id="@+id/description_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#acacac"
+            android:textSize="15sp"/>
+  <!-- Content Label -->
+  <TextView android:id="@+id/content_label"
+      		android:layout_width="fill_parent"
+      		android:layout_height="wrap_content"
+      		android:textStyle="bold"
+      		android:textSize="20sp"/>
+</LinearLayout>
+</ScrollView>

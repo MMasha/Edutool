@@ -1,0 +1,120 @@
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" xmlns:android="http://schemas.android.com/apk/res/android">
+    
+  
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#fff"
+     >
+     
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/header_gradient"
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:orientation="vertical"
+        >
+         
+         <!-- create a logo using the image view....haiya 
+         <ImageView 
+             android:src="@drawable/emblem_library"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="10dip" />-->
+                    
+            
+        </LinearLayout>
+        <!-- this is the  end of the header and what will be in it, ok moving on -->
+		<!-- can put in a footer .... or not -->
+		<!-- for the registration form  -->
+	<LinearLayout 
+	    android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/header"
+	    android:padding="5dip"
+	    	    >
+<!-- a label for the name -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#372c24"
+        android:text="Enter Name"
+     />
+        <EditText
+        android:id="@+id/reg_username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="20dip"
+        android:singleLine="true"/>
+        
+        
+<!-- a label for the email -->
+<TextView 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:textColor="#372c24"     
+    android:text="Email"/>
+<EditText
+     android:id="@+id/reg_email" 
+     android:layout_width="fill_parent"
+      android:layout_height="wrap_content" 
+      android:layout_marginTop="5dip" 
+      android:singleLine="true" 
+      android:layout_marginBottom="20dip"/>
+
+<!-- Password Label -->
+<TextView 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:textColor="#372c24" 
+    android:text="Password"/>
+<EditText android:id="@+id/reg_password" 
+    android:layout_width="fill_parent"
+     android:layout_height="wrap_content" 
+     android:password="true" 
+     android:singleLine="true" 
+     android:layout_marginTop="5dip"/>
+
+<!-- Register Button -->
+<Button android:id="@+id/btnRegister" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     android:layout_marginTop="10dip" 
+     android:text="Register New Account"/>
+
+<!-- Link to Login Screen -->
+<TextView android:id="@+id/link_to_login" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_marginTop="40dip"
+     android:layout_marginBottom="40dip" 
+     android:text="Already has account! Login here" 
+     android:gravity="center" 
+     android:textSize="20sp" 
+     android:textColor="#025f7c"/>
+
+<Button 
+    android:id="@+id/btnList" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     android:layout_marginTop="10dip" 
+     android:text="Test Link to the List page"/>
+   
+	</LinearLayout><!-- Registration Form Ends -->
+
+
+
+
+</RelativeLayout>
+</ScrollView>

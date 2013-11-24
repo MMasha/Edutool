@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    
+    <string name="title_activity_main">Take your pick</string>
+    <string name="login">Go to class</string>
+    <string name="register">Register here</string>
+    <string name="about">About us</string>
+    <string name="videos"> Videos</string>
+     <string name="quizzes">Quizzes</string>
+      <string name="notes"> Notes</string>
+      <string name="about_text">
+          Kusoma is an e-learning application
+          Platform to learn Primary school subjects. 
+          Includes quizzes, videos, notes and animations
+          to create an interactive learning environment.
+      </string>
+
+</resources>
